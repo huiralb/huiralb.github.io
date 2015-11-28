@@ -42,6 +42,8 @@ highlighter: pygments
 markdown:    kramdown
 gems:
   - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-gist
 sass:
   sass_dir: _sass
   style: compressed
@@ -50,7 +52,8 @@ sass:
 permalink:   /:categories/:title/
 
 # Amount of post to show on home page
-paginate: 5
+paginate : 5
+paginate_path : page:num
 
 kramdown:
   auto_ids: true
